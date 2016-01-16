@@ -1,13 +1,15 @@
-var array = [1, 7, 3, 4];
+var params = process.argv.slice(2);
+var array = params;
 var sum = [];
-var elementOne = ([1]+ [2] + [3]);
-var elementTwo = ([0]+ [2] + [3]);
-var elementThree = ([0] + [1] + [3]);
-var elementFour = ([0] + [1] + [2]);
+var elementOne = (parseFloat(array[1])+ parseFloat(array[2]) + parseFloat(array[3]));
+var elementTwo = (parseFloat(array[0])+ parseFloat(array[2]) + parseFloat(array[3]));
+var elementThree = (parseFloat(array[0]) + parseFloat(array[1]) + parseFloat(array[3]));
+var elementFour = (parseFloat(array[0]) + parseFloat(array[1]) + parseFloat(array[2]));
+
+console.log( [elementOne, elementTwo, elementThree, elementFour]);
 
 
 
-
-for( var = 0; i < array.length; i++){
-    sum = 
-}
+// for( var = 0; i < array.length; i++){
+//     sum = 
+// }
