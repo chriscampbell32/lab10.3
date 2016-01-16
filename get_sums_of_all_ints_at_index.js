@@ -10,6 +10,7 @@ console.log( [elementOne, elementTwo, elementThree, elementFour]);
 
 
 
-// for( var = 0; i < array.length; i++){
-//     sum = 
-// }
+for( var i = 0; i < array.length; i++){
+    sum = [i]
+}
+//loop thru array, and grab all the array elements, so that we can add them
